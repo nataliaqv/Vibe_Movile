@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".imagenActivity">
+
+    <ImageView
+        android:id="@+id/pop"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/pop_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <ImageView
+        android:id="@+id/jazz"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/jazz_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/rock"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/rock_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/latino"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/latino_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/hiphop_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="153dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/salsa_genre"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/Rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Rock"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/hiphop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Hip-Hop"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <TextView
+        android:id="@+id/jazz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Jazz"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/Pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pop"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FDFCFC"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/latino2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latino"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <TextView
+        android:id="@+id/salsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salsa"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VIBEVIBE</string>
+    <string name="reproductor">Reproductor</string>
+    <string name="perfil">Perfil</string>
+    <string name="im_genes">Imágenes</string>
+    <string name="videos">Videos</string>
+    <string name="web">Web</string>
+    <string name="lista_de_canciones">Lista de canciones</string>
+    <string name="Titulo">Reproductor de audio</string>
+    <string name="UsuarioProyecto">Usuario Proyecto Vibevibe</string>
+    <string name="UserPro">Vibevibe1</string>
+    <string name="UserCorreo">vibevibe1@gmail.com</string>
+    <string name="Redes">Redes Sociales</string>
+    <string name="Instagram">vibevibe_1</string>
+    <string name="Datos">Acerca de ti</string>
+    <string name="Facebook">usr_vibevibe1</string>
+    <string name="Youtube">@usr_vibevibe</string>
+    <string name="Siguiendo">Seguiendo 3</string>
+    <string name="Siguidores">Seguidores  0</string>
+    <string name="Megusta">Me gusta 0</string>
+    <string name="Editar">Editar perfil</string>
+</resources>
