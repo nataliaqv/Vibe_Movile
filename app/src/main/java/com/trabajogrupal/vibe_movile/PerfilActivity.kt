@@ -1,19 +1,50 @@
 package com.trabajogrupal.vibe_movile
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import android.content.Context
+import android.widget.Button
+import android.widget.TextView
+
+
 
 class PerfilActivity : AppCompatActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_perfil)
 
+        val Edit = findViewById<Button>(R.id.EditartextView)
+        Edit.setOnClickListener{
+            Edit()
+        }
+
+
+        val sharedPref = getSharedPreferences("user_data", Context.MODE_PRIVATE)
+        val username = sharedPref.getString("username", "")
+        val email = sharedPref.getString("email", "")
+
+        val userTextView = findViewById<TextView>(R.id.NametextView)
+        val emailTextView = findViewById<TextView>(R.id.CorretextView)
+
+        userTextView.text = username
+        emailTextView.text = email
+
     }
+    private fun Edit (){
+        val i = Intent(this, EditPActivity::class.java)
+        startActivity(i)
+    }
+
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.despleg_menu, menu)
         return true

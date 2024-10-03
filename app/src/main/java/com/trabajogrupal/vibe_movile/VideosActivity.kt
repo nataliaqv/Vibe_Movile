@@ -44,6 +44,7 @@ class VideosActivity : AppCompatActivity() {
         var intent = Intent(this, MediaPlayerActivity::class.java)
         intent.putExtra("url", url)
         startActivity(intent)
+        finish()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

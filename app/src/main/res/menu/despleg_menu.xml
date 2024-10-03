@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-<item
-    android:id="@+id/app_bar_search"
-    android:icon="@drawable/ic_action_search"
-    app:actionViewClass="android.widget.SearchView"
-    app:showAsAction="ifRoom"
-    tools:ignore="MenuTitle"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        tools:ignore="MenuTitle" />
     <group>
     <item android:title="@string/reproductor"
        android:id="@+id/rep" />
